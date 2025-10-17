@@ -142,5 +142,6 @@
         }
     },
     "url": "https://github.com/lucwasa14-code/On-Champions",
-    "manifest": "https://raw.githubusercontent.com/lucwasa14-code/On-Champions/refs/heads/main/module.json"
+    "manifest": "https://raw.githubusercontent.com/lucwasa14-code/On-Champions/refs/heads/main/module.json",
+    "download": "https://github.com/lucwasa14-code/On-Champions/archive/refs/tags/1.0.0.zip"
 }
