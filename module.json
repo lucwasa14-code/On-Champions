@@ -1,6 +1,7 @@
 {
     "id": "On-Champions",
     "title": "On Champions:  Promises, Oaths, Zeal and Belief",
+    "version": "1.0.0",
     "description": "<p>A supplement for the Pathfinder Second Edition system adding causes, devotion spells, feats, and more to the champion.</p><p>Includes all player-facing content, tables for both players and GMs to roll, and a journal for easy access to the book's contents.</p>",
     "authors": [
         {
@@ -23,7 +24,7 @@
                 "type": "system",
                 "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
                 "compatibility": {
-                    "minimum": "6.12.0"
+                    "minimum": "7.1.0"
                 }
             }
         ]
@@ -139,5 +140,7 @@
                 }
             }
         }
-    }
+    },
+    "url": "https://github.com/lucwasa14-code/On-Champions",
+    "manifest": "https://raw.githubusercontent.com/lucwasa14-code/On-Champions/refs/heads/main/module.json"
 }
