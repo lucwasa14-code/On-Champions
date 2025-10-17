@@ -1,0 +1,143 @@
+{
+    "id": "On-Champions",
+    "title": "On Champions:  Promises, Oaths, Zeal and Belief",
+    "description": "<p>A supplement for the Pathfinder Second Edition system adding causes, devotion spells, feats, and more to the champion.</p><p>Includes all player-facing content, tables for both players and GMs to roll, and a journal for easy access to the book's contents.</p>",
+    "authors": [
+        {
+            "name": "Luc Cook",
+            "discord": "hoonterluc"
+        },
+        {
+            "name": "Javier Roque",
+            "discord": "awesomekidkid"
+        }
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "6.12.0"
+                }
+            }
+        ]
+    },
+    "packs": [
+        {
+            "label": "Player Options",
+            "name": "items",
+            "path": "packs/items",
+            "system": "pf2e",
+            "type": "Item"
+        },
+        {
+            "label": "Effects",
+            "name": "effects",
+            "path": "packs/effects",
+            "system": "pf2e",
+            "type": "Item"
+        },
+        {
+            "label": "Journals",
+            "name": "journals",
+            "path": "packs/journals",
+            "system": "pf2e",
+            "type": "JournalEntry"
+        },
+        {
+            "label": "Rollable Tables",
+            "name": "tables",
+            "path": "packs/tables",
+            "system": "pf2e",
+            "type": "RollTable"
+        }
+    ],
+    "packFolders":[
+        {
+            "name": "On Champions:  Promises, Oaths, Zeal and Belief",
+            "sorting": "a",
+            "packs": [
+                "items",
+                "effects",
+                "journals",
+                "tables"
+            ]
+        }
+    ],
+    "flags": {
+        "on-champions": {
+            "pf2e-homebrew": {
+                "featTraits": {
+                    "vow": {
+                        "label": "Vow",
+                        "description": "Each vow has a power and a condition associated with it. All vow abilities have the stance trait alongside their existing traits. The powers often incentivize playstyles speci c to the cause the champion serves. Should the condition fail to be met, the champion becomes stunned 2 as the weight of their vow shatters against them in full force. Vows are magical abilities but cannot be dispelled or counteracted once in e ect, as the binding magic that enforces the tenets holds true divine power. Vows have no set duration, ending only at the end of a combat or until their condition is broken. While failing to uphold a vow does not immediately result in breaking your edicts and anathema, repeated failures may be considered the end of your service as a champion at GM discretion."
+                    },
+                    "abjuration": {
+                        "label": "Abjuration",
+                        "description": "Effects and magic items with this trait are associated with the abjuration school of magic, typically involving protection or wards."
+                    },
+                    "conjuration": {
+                        "label": "Conjuration",
+                        "description": "Effects and magic items with this trait are associated with the conjuration school of magic, typically involving summoning, creation, teleportation, or moving things from place to place."
+                    },
+                    "divination": {
+                        "label": "Divination",
+                        "description": "The divination school of magic typically involves obtaining or transferring information, or predicting events."
+                    },
+                    "enchantment": {
+                        "label": "Enchantment",
+                        "description": "Effects and magic items with this trait are associated with the enchantment school of magic, typically involving mind control, emotion alteration, and other mental effects."
+                    },
+                    "evocation": {
+                        "label": "Evocation",
+                        "description": "Effects and magic items with this trait are associated with the evocation school of magic, typically involving energy and elemental forces."
+                    },
+                    "necromancy": {
+                        "label": "Necromancy",
+                        "description": "Effects and magic items with this trait are associated with the necromancy school of magic, typically involving forces of life and death."
+                    },
+                    "transmutation": {
+                        "label": "Transmutation",
+                        "description": "Effects and magic items with this trait are associated with the transmutation school of magic, typically changing something's form."
+                    }
+                },
+                "spellTraits": {
+                    "abjuration": {
+                        "label": "Abjuration",
+                        "description": "Effects and magic items with this trait are associated with the abjuration school of magic, typically involving protection or wards."
+                    },
+                    "conjuration": {
+                        "label": "Conjuration",
+                        "description": "Effects and magic items with this trait are associated with the conjuration school of magic, typically involving summoning, creation, teleportation, or moving things from place to place."
+                    },
+                    "divination": {
+                        "label": "Divination",
+                        "description": "The divination school of magic typically involves obtaining or transferring information, or predicting events."
+                    },
+                    "enchantment": {
+                        "label": "Enchantment",
+                        "description": "Effects and magic items with this trait are associated with the enchantment school of magic, typically involving mind control, emotion alteration, and other mental effects."
+                    },
+                    "evocation": {
+                        "label": "Evocation",
+                        "description": "Effects and magic items with this trait are associated with the evocation school of magic, typically involving energy and elemental forces."
+                    },
+                    "necromancy": {
+                        "label": "Necromancy",
+                        "description": "Effects and magic items with this trait are associated with the necromancy school of magic, typically involving forces of life and death."
+                    },
+                    "transmutation": {
+                        "label": "Transmutation",
+                        "description": "Effects and magic items with this trait are associated with the transmutation school of magic, typically changing something's form."
+                    }
+                }
+            }
+        }
+    }
+}
